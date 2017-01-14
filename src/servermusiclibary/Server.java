@@ -23,7 +23,7 @@ public class Server extends Thread
     {
         this.num = num;
         this.socket = socket;
-        setDaemon(true);
+        
         setPriority(NORM_PRIORITY);
         // Старт потока
         start();
